@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Prime Finder</title>
+    <style>body{font-family: Arial, sans-serif; margin: 2rem;} label,input{font-size:1rem;} button{font-size:1rem;}</style>
+  </head>
+  <body>
+    <h1>Prime Finder</h1>
+    <form action="/primes" method="get">
+      <label for="n">Find primes up to: </label>
+      <input type="number" id="n" name="n" value="100" min="2" max="1000000">
+      <button type="submit">Find</button>
+    </form>
+    <p>Example: enter <code>1000</code> and press Find. The server runs on <code>http://localhost:8080</code>.</p>
+  </body>
+</html>
